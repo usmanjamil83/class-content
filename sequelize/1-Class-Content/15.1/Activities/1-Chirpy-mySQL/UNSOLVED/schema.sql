@@ -1,0 +1,12 @@
+CREATE DATABASE chirpy;
+USE chirpy;
+
+CREATE TABLE `chirps` (
+
+	item_id INTEGER AUTO_INCREMENT NOT NULL,
+	author VARCHAR(100) NOT NULL,
+	chirp VARCHAR(100) NOT NULL,
+	created_at DATETIME NOT NULL,
+	PRIMARY KEY(item_id)
+
+);
